@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66DA62C0272BC46F0078F2AE /* BeeHiveComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66DA62B6272BC46F0078F2AE /* BeeHiveComponent.framework */; };
+		66DA62C5272BC46F0078F2AE /* BeeHiveComponentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DA62C4272BC46F0078F2AE /* BeeHiveComponentTests.m */; };
+		66DA62D8272BC49B0078F2AE /* BHHomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 66DA62D6272BC49B0078F2AE /* BHHomeViewController.h */; };
+		66DA62D9272BC49B0078F2AE /* BHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DA62D7272BC49B0078F2AE /* BHHomeViewController.m */; };
+		66DA62DE272BC4D60078F2AE /* BHPayViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 66DA62DC272BC4D60078F2AE /* BHPayViewController.h */; };
+		66DA62DF272BC4D60078F2AE /* BHPayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DA62DD272BC4D60078F2AE /* BHPayViewController.m */; };
+		66DA62E4272BC4E60078F2AE /* BHMineViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 66DA62E2272BC4E60078F2AE /* BHMineViewController.h */; };
+		66DA62E5272BC4E60078F2AE /* BHMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DA62E3272BC4E60078F2AE /* BHMineViewController.m */; };
+		66DA62F7272BC5370078F2AE /* BHHomeModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 66DA62F5272BC5370078F2AE /* BHHomeModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66DA62F8272BC5370078F2AE /* BHHomeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DA62F6272BC5370078F2AE /* BHHomeModule.m */; };
+		66DA62FD272BC5470078F2AE /* BHPayModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 66DA62FB272BC5470078F2AE /* BHPayModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66DA62FE272BC5470078F2AE /* BHPayModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DA62FC272BC5470078F2AE /* BHPayModule.m */; };
+		66DA6303272BC55C0078F2AE /* BHMineModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 66DA6301272BC55C0078F2AE /* BHMineModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66DA6304272BC55C0078F2AE /* BHMineModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DA6302272BC55C0078F2AE /* BHMineModule.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66DA62C1272BC46F0078F2AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66DA62AD272BC46F0078F2AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66DA62B5272BC46F0078F2AE;
+			remoteInfo = BeeHiveComponent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66DA62B6272BC46F0078F2AE /* BeeHiveComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BeeHiveComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66DA62BA272BC46F0078F2AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66DA62BF272BC46F0078F2AE /* BeeHiveComponentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeeHiveComponentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66DA62C4272BC46F0078F2AE /* BeeHiveComponentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeHiveComponentTests.m; sourceTree = "<group>"; };
+		66DA62C6272BC46F0078F2AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66DA62D6272BC49B0078F2AE /* BHHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHHomeViewController.h; sourceTree = "<group>"; };
+		66DA62D7272BC49B0078F2AE /* BHHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHHomeViewController.m; sourceTree = "<group>"; };
+		66DA62DC272BC4D60078F2AE /* BHPayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHPayViewController.h; sourceTree = "<group>"; };
+		66DA62DD272BC4D60078F2AE /* BHPayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHPayViewController.m; sourceTree = "<group>"; };
+		66DA62E2272BC4E60078F2AE /* BHMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHMineViewController.h; sourceTree = "<group>"; };
+		66DA62E3272BC4E60078F2AE /* BHMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHMineViewController.m; sourceTree = "<group>"; };
+		66DA62F5272BC5370078F2AE /* BHHomeModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHHomeModule.h; sourceTree = "<group>"; };
+		66DA62F6272BC5370078F2AE /* BHHomeModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHHomeModule.m; sourceTree = "<group>"; };
+		66DA62FB272BC5470078F2AE /* BHPayModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHPayModule.h; sourceTree = "<group>"; };
+		66DA62FC272BC5470078F2AE /* BHPayModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHPayModule.m; sourceTree = "<group>"; };
+		66DA6301272BC55C0078F2AE /* BHMineModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BHMineModule.h; sourceTree = "<group>"; };
+		66DA6302272BC55C0078F2AE /* BHMineModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BHMineModule.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66DA62B3272BC46F0078F2AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66DA62BC272BC46F0078F2AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DA62C0272BC46F0078F2AE /* BeeHiveComponent.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66DA62AC272BC46F0078F2AE = {
+			isa = PBXGroup;
+			children = (
+				66DA62B8272BC46F0078F2AE /* BeeHiveComponent */,
+				66DA62C3272BC46F0078F2AE /* BeeHiveComponentTests */,
+				66DA62B7272BC46F0078F2AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66DA62B7272BC46F0078F2AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66DA62B6272BC46F0078F2AE /* BeeHiveComponent.framework */,
+				66DA62BF272BC46F0078F2AE /* BeeHiveComponentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66DA62B8272BC46F0078F2AE /* BeeHiveComponent */ = {
+			isa = PBXGroup;
+			children = (
+				66DA62E8272BC5010078F2AE /* Home */,
+				66DA62ED272BC50A0078F2AE /* Pay */,
+				66DA62EE272BC5130078F2AE /* Mine */,
+				66DA62BA272BC46F0078F2AE /* Info.plist */,
+			);
+			path = BeeHiveComponent;
+			sourceTree = "<group>";
+		};
+		66DA62C3272BC46F0078F2AE /* BeeHiveComponentTests */ = {
+			isa = PBXGroup;
+			children = (
+				66DA62C4272BC46F0078F2AE /* BeeHiveComponentTests.m */,
+				66DA62C6272BC46F0078F2AE /* Info.plist */,
+			);
+			path = BeeHiveComponentTests;
+			sourceTree = "<group>";
+		};
+		66DA62E8272BC5010078F2AE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				66DA62D6272BC49B0078F2AE /* BHHomeViewController.h */,
+				66DA62D7272BC49B0078F2AE /* BHHomeViewController.m */,
+				66DA62F5272BC5370078F2AE /* BHHomeModule.h */,
+				66DA62F6272BC5370078F2AE /* BHHomeModule.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		66DA62ED272BC50A0078F2AE /* Pay */ = {
+			isa = PBXGroup;
+			children = (
+				66DA62DC272BC4D60078F2AE /* BHPayViewController.h */,
+				66DA62DD272BC4D60078F2AE /* BHPayViewController.m */,
+				66DA62FB272BC5470078F2AE /* BHPayModule.h */,
+				66DA62FC272BC5470078F2AE /* BHPayModule.m */,
+			);
+			path = Pay;
+			sourceTree = "<group>";
+		};
+		66DA62EE272BC5130078F2AE /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				66DA62E2272BC4E60078F2AE /* BHMineViewController.h */,
+				66DA62E3272BC4E60078F2AE /* BHMineViewController.m */,
+				66DA6301272BC55C0078F2AE /* BHMineModule.h */,
+				66DA6302272BC55C0078F2AE /* BHMineModule.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		66DA62B1272BC46F0078F2AE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DA62F7272BC5370078F2AE /* BHHomeModule.h in Headers */,
+				66DA62FD272BC5470078F2AE /* BHPayModule.h in Headers */,
+				66DA6303272BC55C0078F2AE /* BHMineModule.h in Headers */,
+				66DA62DE272BC4D60078F2AE /* BHPayViewController.h in Headers */,
+				66DA62D8272BC49B0078F2AE /* BHHomeViewController.h in Headers */,
+				66DA62E4272BC4E60078F2AE /* BHMineViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		66DA62B5272BC46F0078F2AE /* BeeHiveComponent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66DA62CA272BC46F0078F2AE /* Build configuration list for PBXNativeTarget "BeeHiveComponent" */;
+			buildPhases = (
+				66DA62B1272BC46F0078F2AE /* Headers */,
+				66DA62B2272BC46F0078F2AE /* Sources */,
+				66DA62B3272BC46F0078F2AE /* Frameworks */,
+				66DA62B4272BC46F0078F2AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeeHiveComponent;
+			productName = BeeHiveComponent;
+			productReference = 66DA62B6272BC46F0078F2AE /* BeeHiveComponent.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		66DA62BE272BC46F0078F2AE /* BeeHiveComponentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66DA62CD272BC46F0078F2AE /* Build configuration list for PBXNativeTarget "BeeHiveComponentTests" */;
+			buildPhases = (
+				66DA62BB272BC46F0078F2AE /* Sources */,
+				66DA62BC272BC46F0078F2AE /* Frameworks */,
+				66DA62BD272BC46F0078F2AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66DA62C2272BC46F0078F2AE /* PBXTargetDependency */,
+			);
+			name = BeeHiveComponentTests;
+			productName = BeeHiveComponentTests;
+			productReference = 66DA62BF272BC46F0078F2AE /* BeeHiveComponentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66DA62AD272BC46F0078F2AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					66DA62B5272BC46F0078F2AE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					66DA62BE272BC46F0078F2AE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 66DA62B0272BC46F0078F2AE /* Build configuration list for PBXProject "BeeHiveComponent" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66DA62AC272BC46F0078F2AE;
+			productRefGroup = 66DA62B7272BC46F0078F2AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66DA62B5272BC46F0078F2AE /* BeeHiveComponent */,
+				66DA62BE272BC46F0078F2AE /* BeeHiveComponentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66DA62B4272BC46F0078F2AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66DA62BD272BC46F0078F2AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66DA62B2272BC46F0078F2AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DA6304272BC55C0078F2AE /* BHMineModule.m in Sources */,
+				66DA62FE272BC5470078F2AE /* BHPayModule.m in Sources */,
+				66DA62E5272BC4E60078F2AE /* BHMineViewController.m in Sources */,
+				66DA62D9272BC49B0078F2AE /* BHHomeViewController.m in Sources */,
+				66DA62F8272BC5370078F2AE /* BHHomeModule.m in Sources */,
+				66DA62DF272BC4D60078F2AE /* BHPayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66DA62BB272BC46F0078F2AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DA62C5272BC46F0078F2AE /* BeeHiveComponentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66DA62C2272BC46F0078F2AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66DA62B5272BC46F0078F2AE /* BeeHiveComponent */;
+			targetProxy = 66DA62C1272BC46F0078F2AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		66DA62C8272BC46F0078F2AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		66DA62C9272BC46F0078F2AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		66DA62CB272BC46F0078F2AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BeeHiveComponent/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marshal.BeeHiveComponent;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66DA62CC272BC46F0078F2AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BeeHiveComponent/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marshal.BeeHiveComponent;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66DA62CE272BC46F0078F2AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BeeHiveComponentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marshal.BeeHiveComponentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66DA62CF272BC46F0078F2AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BeeHiveComponentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marshal.BeeHiveComponentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66DA62B0272BC46F0078F2AE /* Build configuration list for PBXProject "BeeHiveComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66DA62C8272BC46F0078F2AE /* Debug */,
+				66DA62C9272BC46F0078F2AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66DA62CA272BC46F0078F2AE /* Build configuration list for PBXNativeTarget "BeeHiveComponent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66DA62CB272BC46F0078F2AE /* Debug */,
+				66DA62CC272BC46F0078F2AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66DA62CD272BC46F0078F2AE /* Build configuration list for PBXNativeTarget "BeeHiveComponentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66DA62CE272BC46F0078F2AE /* Debug */,
+				66DA62CF272BC46F0078F2AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66DA62AD272BC46F0078F2AE /* Project object */;
+}

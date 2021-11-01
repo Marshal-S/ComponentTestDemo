@@ -1,0 +1,6 @@
+framework module LSComponentDemo {
+  umbrella header "LSComponentDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

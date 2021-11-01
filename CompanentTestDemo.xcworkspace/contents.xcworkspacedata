@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:CompanentTestDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BeeHiveProtocolComponent/BeeHiveProtocolComponent.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BeeHiveComponent/BeeHiveComponent.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BeeHive/BeeHive.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CTMediaComponentDemo/CTMediaComponentDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MGJComponentDemo/MGJComponentDemo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MGJRouter/MGJRouter.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Component2/Component2.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Component1/Component1.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

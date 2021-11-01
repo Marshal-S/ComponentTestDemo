@@ -1,0 +1,31 @@
+{
+  "name": "LSComponentDemo",
+  "version": "0.1.4",
+  "summary": "A short description of LSComponentDemo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Marshal-S/LSComponentDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Marshal-S": "921871381@qq.com"
+  },
+  "source": {
+    "git": "git@github.com:Marshal-S/LSComponentPodsDemo.git",
+    "tag": "0.1.4"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "LSComponentDemo/Classes/**/*.{h,m}",
+  "resource_bundles": {
+    "LSComponentDemo": [
+      "LSComponentDemo/Assets/*"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ]
+}
